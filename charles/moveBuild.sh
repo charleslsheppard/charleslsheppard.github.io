@@ -5,5 +5,5 @@ ls | grep -v charles| xargs rm -rf
 mv charles/build/* .
 
 git add *
-git commit -m \"`date`\"
+echo \"`date`\" | xargs git commit -m
 git push origin
