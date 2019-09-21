@@ -1,0 +1,22 @@
+.ui.inverted.segment.colheading{
+    /* background: url(../images/landscape/parisPontDesArts.jpg) no-repeat center center scroll; */
+    background: url(../images/landscape/parisPontDesArts.jpg) no-repeat center center scroll;
+    background-size: cover;
+    background-attachment:fixed; 
+}
+
+/* border around top menue bar */
+.ui.secondary.inverted.pointing.menu.colborder{
+    border-color: rgba(255, 255, 254, 0);
+}
+
+/* text on top menue bar */
+.ui.secondary.inverted.menu a.item.coltext{
+    color: #192244!important;
+}
+
+/* text on top menue bar hover */
+.ui.secondary.inverted.menu a.item.coltext:hover{
+    font-weight: bold !important;
+    color: #192244!important;
+}
