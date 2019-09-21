@@ -128,10 +128,10 @@ const HomepageLayout = () => (
             </Grid.Column>
             <Grid.Column width={7}>
               <Header as='h4' inverted>
-                Notes
+                Need a site?
               </Header>
               <p>
-                Site created by colinsheppard10@gmail.com
+                contact colinsheppard10@gmail.com
               </p>
             </Grid.Column>
           </Grid.Row>
