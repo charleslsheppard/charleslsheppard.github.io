@@ -1,6 +1,6 @@
 .ui.inverted.segment.colheading{
     /* background: url(../images/landscape/parisPontDesArts.jpg) no-repeat center center scroll; */
-    background: url(../images/landscape/parisPontDesArts.jpg) no-repeat center center scroll;
+    background: url(../images/landscape/parisPontDesArtsBackground.jpg) no-repeat center center scroll;
     background-size: cover;
     background-attachment:fixed; 
 }

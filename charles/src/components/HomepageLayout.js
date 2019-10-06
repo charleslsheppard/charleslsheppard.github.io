@@ -64,7 +64,7 @@ const HomepageLayout = () => (
         <a>Gallery</a>
       </Divider>
     </Container>
-      <Segment style={{ padding: '0em' }} vertical>
+      <Segment style={{ padding: '0em 5em' }} vertical>
         <Grid columns='equal'>
           <Grid.Row centered >
             <Tabs/>

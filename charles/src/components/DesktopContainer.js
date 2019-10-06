@@ -48,7 +48,7 @@ class DesktopContainer extends Component {
             <Segment
               inverted
               textAlign='center'
-              style={{ minHeight: '100vh', padding: '1em 0em' }}
+              style={{ minHeight: '100vh', padding: '1em 0em'}}
               vertical
               className="colheading"
             >

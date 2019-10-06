@@ -70,7 +70,7 @@ class MobileContainer extends Component {
             <Segment
               inverted
               textAlign='center'
-              style={{ minHeight: 350, padding: '1em 0em',background: 'url(../images/landscape/parisPontDesArts.jpg) no-repeat center center scroll', backgroundSize: 'cover',backgroundAttachment:'fixed' }}
+              style={{ minHeight: 350, padding: '1em 0em',background: 'url(../images/landscape/parisPontDesArtsBackground.jpg) no-repeat center center scroll', backgroundSize: 'cover',backgroundAttachment:'fixed' }}
               vertical
             >
               <Container>
