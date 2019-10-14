@@ -32,6 +32,7 @@ const panes = [
               {getModel('../../images/landscape/fourByTwo/parisPontDesArts.jpg','paris Pont Des Arts')}
             </Image.Group>
             <Image.Group size='medium'>
+              {getModel('../../images/landscape/paysage.jpg','Brittany')}
               {getModel('../../images/landscape/brittany.jpg','Brittany')}
               {getModel('../../images/landscape/brittany2.jpg','Brittany 2')}
               {getModel('../../images/landscape/brittany3.jpg','Brittany 3')}
