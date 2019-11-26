@@ -35,7 +35,6 @@ const panes = [
               {getModel('../../images/landscape/bridge.jpg','bridge')}
               {getModel('../../images/landscape/rooftop.jpg','rooftop')}
               {getModel('../../images/landscape/paysage.jpg','paysage')}
-              {getModel('../../images/landscape/brittany.jpg','Brittany')}
               {getModel('../../images/landscape/brittany2.jpg','Brittany 2')}
               {getModel('../../images/landscape/brittany3.jpg','Brittany 3')}
               {getModel('../../images/landscape/greatfulDead.jpg','greatful Dead')}
