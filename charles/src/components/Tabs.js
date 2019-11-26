@@ -22,7 +22,6 @@ const panes = [
               {getModel('../../images/portrait/flemishServant.jpg','flemish servant')}
               {getModel('../../images/portrait/modelItalien.jpg','italian model')}
               {getModel('../../images/portrait/ricePortrait.jpg','italian model 2')}
-              {getModel('../../images//portrait/womanAndChild.jpg','woman and child')}
             </Image.Group>
     </Tab.Pane> },
   { menuItem: 'Landscapes', render: () => 
