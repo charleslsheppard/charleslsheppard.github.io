@@ -4,7 +4,6 @@ import MobileContainer from './MobileContainer';
 import DesktopContainer from './DesktopContainer';
 import Tabs from './Tabs';
 import { Element } from 'react-scroll';
-
 import {
   Container,
   Divider,
@@ -13,7 +12,7 @@ import {
   Image,
   List,
   Segment,
-} from 'semantic-ui-react'
+} from 'semantic-ui-react';
 
 const ResponsiveContainer = ({ children }) => (
   <div>
@@ -96,7 +95,7 @@ const HomepageLayout = () => (
           <a>Gallery</a>
         </Divider>
       </Container>
-      <Segment style={{ padding: '0em 5em' }} vertical>
+      <Segment style={{ padding: '0em 5em'}} vertical>
         <Grid columns='equal'>
           <Grid.Row centered >
             <Tabs />
