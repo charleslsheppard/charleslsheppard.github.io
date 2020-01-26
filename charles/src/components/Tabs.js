@@ -129,15 +129,6 @@ const panes = [
             {getModel('Golf Swing front ','../../images/Sports/Golf_Swing_front.JPG')}
             </Image.Group>
         </Tab.Pane> },
-        { menuItem: 'Collages', render: () => 
-        <Tab.Pane>
-            <Image.Group size='medium'>
-              {getModel('Urban Issues ','../../images/Collages/Urban_Issues.JPG')}
-              {getModel('US City ','../../images/Collages/US_City.JPG')}
-              {getModel('Sky Rythm ','../../images/Collages/Sky_Rythm.JPG')}
-              {getModel('Prisoner ','../../images/Collages/Prisoner.JPG')}
-            </Image.Group>
-        </Tab.Pane> },
         { menuItem: 'Variations', render: () => 
         <Tab.Pane>
             <Image.Group size='medium'>
@@ -149,6 +140,10 @@ const panes = [
             {getModel('Friulan Flag ','../../images/Variations/Friulan_Flag.jpg')}
             {getModel('Auschwitz February 1945 ','../../images/Variations/Auschwitz_February_1945.jpg')}
             {getModel('Train Station ','../../images/Variations/Train_station.jpg')}
+            {getModel('Urban Issues ','../../images/Collages/Urban_Issues.JPG')}
+            {getModel('US City ','../../images/Collages/US_City.JPG')}
+            {getModel('Sky Rythm ','../../images/Collages/Sky_Rythm.JPG')}
+            {getModel('Prisoner ','../../images/Collages/Prisoner.JPG')}
             </Image.Group>
         </Tab.Pane> }
 ]
