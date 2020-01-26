@@ -118,31 +118,31 @@ const Portraits = [
 const panes = [
     { menuItem: 'Landscapes', render: () => 
     <Tab.Pane>
-              <ImageGallery thumbnailPosition="left" autoPlay={true} items={Landscapes} />
+              <ImageGallery thumbnailPosition="left" items={Landscapes} />
   </Tab.Pane> },
     { menuItem: 'Portraits', render: () => 
     <Tab.Pane>
-              <ImageGallery thumbnailPosition="left" autoPlay={true} items={Portraits} />
+              <ImageGallery thumbnailPosition="left" items={Portraits} />
   </Tab.Pane> },
     { menuItem: 'Collages', render: () => 
     <Tab.Pane>
-              <ImageGallery thumbnailPosition="left" autoPlay={true} items={Collages} />
+              <ImageGallery thumbnailPosition="left" items={Collages} />
   </Tab.Pane> },
     { menuItem: 'Sketches', render: () => 
     <Tab.Pane>
-              <ImageGallery thumbnailPosition="left" autoPlay={true} items={Sketches} />
+              <ImageGallery thumbnailPosition="left" items={Sketches} />
   </Tab.Pane> },
     { menuItem: 'Ball Point Pen', render: () => 
     <Tab.Pane>
-              <ImageGallery thumbnailPosition="left" autoPlay={true} items={Ball_Point_Pen} />
+              <ImageGallery thumbnailPosition="left" items={Ball_Point_Pen} />
   </Tab.Pane> },
     { menuItem: 'Sports', render: () => 
     <Tab.Pane>
-              <ImageGallery thumbnailPosition="left" autoPlay={true} items={Sports} />
+              <ImageGallery thumbnailPosition="left" items={Sports} />
   </Tab.Pane> },
     { menuItem: 'Variations', render: () => 
     <Tab.Pane>
-              <ImageGallery thumbnailPosition="left" autoPlay={true} items={Variations} />
+              <ImageGallery thumbnailPosition="left" items={Variations} />
   </Tab.Pane> },
 ]
 
