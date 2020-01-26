@@ -20,21 +20,3 @@
 .App-link {
   color: #09d3ac;
 }
-
-/* @import "~react-image-gallery/styles/css/image-gallery.css"; */
-
-/* .image-gallery-content.left .image-gallery-slide .image-gallery-image, .image-gallery-content.right .image-gallery-slide .image-gallery-image {
-  height: 80vh;
-  width: 80vw;
-}
-
-.image-gallery-slide .image-gallery-description {
-  background: rgb(255, 255, 255);
-  bottom: initial;
-  color: #000;
-  line-height: 2em;
-  padding: 0px 200px;
-  position: inherit;
-  white-space: normal;
-  font-size: 1.3rem;
-} */

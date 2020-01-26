@@ -1,15 +1,22 @@
 import React from 'react';
 import { Tab,Image,Modal,Container } from 'semantic-ui-react';
 
-import ImageGallery from 'react-image-gallery';
+// const getModel = (title, source) => {
+//   return(
+//     <Modal trigger={
+//       <Image style={{cursor: 'grab', maxHeight:'300px', maxWidth:'300px',overflow:'hidden'}} rounded>
+//           <Image src={source}/>
+//       </Image>
+//     } closeIcon>
+//       <Image size='fullscren'fluid src={source} rounded/>
+//       <Container style={{ margin: '3em 0em 3em 0em', textTransform: 'uppercase', cursor: 'grab' }} textAlign='center'>{title}</Container>
+//     </Modal>
+//   )
+// }
 
 const getModel = (title, source) => {
   return(
-    <Modal trigger={
-      <Image style={{cursor: 'grab', maxHeight:'300px', maxWidth:'300px',overflow:'hidden'}} rounded>
-          <Image src={source}/>
-      </Image>
-    } closeIcon>
+    <Modal trigger={<Image style={{ cursor: 'grab' }} src={source} rounded/>} closeIcon>
       <Image size='fullscren'fluid src={source} rounded/>
       <Container style={{ margin: '3em 0em 3em 0em', textTransform: 'uppercase', cursor: 'grab' }} textAlign='center'>{title}</Container>
     </Modal>
@@ -141,6 +148,7 @@ const panes = [
             {getModel('Corrida ','../../images/Variations/Corrida.JPG')}
             {getModel('Friulan Flag ','../../images/Variations/Friulan_Flag.jpg')}
             {getModel('Auschwitz February 1945 ','../../images/Variations/Auschwitz_February_1945.jpg')}
+            {getModel('Train Station ','../../images/Variations/Train_station.jpg')}
             </Image.Group>
         </Tab.Pane> }
 ]
