@@ -91,7 +91,6 @@ const panes = [
         { menuItem: 'Ball Point Pen', render: () => 
         <Tab.Pane>
             <Image.Group size='medium'>
-            {getModel('Sheppard 20 ','../../images/Ball_Point_Pen/Sheppard_20.jpg')}
             {getModel('Sheppard 18 ','../../images/Ball_Point_Pen/Sheppard_18.jpg')}
             {getModel('Sheppard 9 ','../../images/Ball_Point_Pen/Sheppard_9.jpg')}
             {getModel('Sheppard 8 ','../../images/Ball_Point_Pen/Sheppard_8.jpg')}
